@@ -1,0 +1,117 @@
+body {
+    max-width: 375px;
+    
+}
+
+.header {
+    display: flex;
+    background-color: #FF6B1A;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.header img {
+    height: 19.935604095458984px;
+    justify-self: flex-start;
+}
+
+.header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header span {
+    font-size: 14px;
+}
+
+.nav {
+    background-color: #1A1A1A;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+}
+
+.nav button {
+    width: 103px;
+    height: 37px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    column-gap: 5px;
+    background-color: #FF6B1A;
+    border: none;
+}
+
+.nav button img {
+    height: 14px;
+}
+
+.welcomeToKonoha {
+    height: 377px;
+    background-color: #2A2A2AE5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.welcomeToKonoha h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.welcomeToKonoha span {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.welcomeToKonoha img {
+    height: 140px;
+    top: 30%;
+    left: 25%;
+    position: absolute;
+    z-index: -1;
+}
+
+.jutsuList div {
+    border: 1px solid black;
+    gap: 10px;
+    width: 324px;
+}
+
+.jutsuList div > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    border: none;
+}
+
+.jutsuList h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.jutsuList div > div img {
+    height: 24px;
+}
+
+
+.jutsuList div span {
+    font-size: 16px;
+}
